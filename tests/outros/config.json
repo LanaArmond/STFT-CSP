@@ -1,0 +1,13 @@
+{
+	"file": "config.csv",
+	"metric": "kappa",
+	"window_size": -2,
+	"v_lines": {
+		"x": [2.0, 2.5],
+		"color": ["green", "green"],
+		"linestyle": ["-", "--"],
+		"label": ["Cue", "Movement onset"],
+		"method": "integral"
+
+	}
+}

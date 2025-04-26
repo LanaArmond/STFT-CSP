@@ -1,0 +1,7 @@
+{
+	"action": ["predict","predict_proba","annotation","fit","kfold"],
+    "X": [dataset[X], None],
+    "y": [dataset[y], None],
+    "infos": [json, None],
+    "pipeline": "conv_csp_lda.exemplo",
+}

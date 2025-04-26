@@ -1,0 +1,21 @@
+{
+	"pipeline": "pipelines\\fft_csp_lda.py",
+	"dataset": {
+		"name": "datasets\\BCICIV2a.py",
+		"subject": 1, 
+		"session_list": null,
+		"run_list": null, 
+		"events_dict": {
+			"left-hand": 1, 
+			"right-hand": 2
+		}
+	},
+	"n_splits": 5,
+	"window_size": 2.0,
+	"train_window": [2.5],
+	"test_window": {
+		"t_min": 0,
+		"t_max": 7.5,
+		"step": 0.1
+	}
+}
